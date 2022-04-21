@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Poppins:wght@300&display=swap');
+
+/* DESIGNED BY:- ARJUN GAUTAM */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(206, 177, 177);
+}
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50vh;
+}
+.id-card{
+    margin: 0;
+    padding: 0;
+    width: 400px;
+    height: 240px;
+    border-radius: 9px;
+    background-color: white;
+}
+.id-card-top{
+    display: flex;
+}
+.ktm{
+    font-size: 13px;
+    margin-top: 2px;
+    font-family: 'Poppins', sans-serif;
+    color: blue;
+}
+.id-card-top2{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: -43px;
+    top: -40px;
+    margin-top: 2px;
+}
+.bh{
+    font-size: 23px;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    top: -5px;
+    color: blue;
+
+}
+.neb{
+    font-size: 12px;
+    margin-left: 15px;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    top: -14px;
+    font-weight: bold;
+}
+.body .id-card-top img{
+    width: 45px;
+    height: 55px;
+}
+.boxes{
+    height: 23px;
+    position: relative;
+    top: -55px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+}
+.boxes .orange{
+    background-color: orange;
+    height: 23px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+.boxes .blue1{
+    background-color: blue;
+    height: 23px;
+    width: 35px;
+}
+.boxes .blue2{
+    background-color: blue;
+    height: 23px;
+    width: 150px;
+}
+.boxes .blue3{
+    background-color: blue;
+    height: 23px;
+    width: 33px;
+}
+
+.middle-left{
+    position: relative;
+    top: -50px;
+    right: -15px;
+    line-height: 22px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+.middle-left1{
+    position: relative;
+    top: -204px;
+    right: -87px;
+    line-height: 22px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color:blue;
+}
+.middle-left #Sec{
+    position: relative;
+    top: -89px;
+    right: -185px;
+}
+.middle-left1 .Sec{
+    position: relative;
+    top: -95px;
+    right: -145px;
+}
+.photo{
+    border: 2px solid red;
+    border-radius: 5px;
+    width: 85px;
+    height: 105px;
+    position: relative;
+    top: -360px;
+    right: -305px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.boxes2{
+    height: 15px;
+    position: relative;
+    top: -325px;
+}
+.boxes2 .blue4{
+    width: 50px;
+    height: 15px;
+    background-color: blue;
+    border-bottom-left-radius: 5px;
+}
+.boxes2 .lightblue{
+    width: 40px;
+    height: 15px;
+    position: relative;
+    top: -15px;
+    right: -50px;
+    background-color: lightskyblue;
+}
+.boxes2 .yellow{
+    width: 75px;
+    height: 15px;
+    position: relative;
+    top: -30px;
+    right: -90px;
+    background-color: yellow;
+}
+.boxes2 .orange2{
+    width: 235px;
+    height: 15px;
+    position: relative;
+    top: -45px;
+    right: -165px;
+    background-color: orange;
+    border-bottom-right-radius: 5px;
+}
